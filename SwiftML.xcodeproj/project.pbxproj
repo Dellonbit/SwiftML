@@ -10,6 +10,11 @@
 		C99BDBEB1CCE80A400F6E2F0 /* SwiftML.h in Headers */ = {isa = PBXBuildFile; fileRef = C99BDBEA1CCE80A400F6E2F0 /* SwiftML.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C99BDBF21CCE80A400F6E2F0 /* SwiftML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C99BDBE71CCE80A200F6E2F0 /* SwiftML.framework */; };
 		C99BDBF71CCE80A400F6E2F0 /* SwiftMLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99BDBF61CCE80A400F6E2F0 /* SwiftMLTests.swift */; };
+		C99BDC021CCE82CC00F6E2F0 /* Ga.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99BDC011CCE82CC00F6E2F0 /* Ga.swift */; };
+		C99BDC041CCE833700F6E2F0 /* Nnet.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99BDC031CCE833700F6E2F0 /* Nnet.swift */; };
+		C99BDC061CCE9CE900F6E2F0 /* AllonesGA.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99BDC051CCE9CE900F6E2F0 /* AllonesGA.swift */; };
+		C99BDC081CCE9E0400F6E2F0 /* Individual.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99BDC071CCE9E0400F6E2F0 /* Individual.swift */; };
+		C99BDC0A1CCEC62700F6E2F0 /* Population.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99BDC091CCEC62700F6E2F0 /* Population.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +34,11 @@
 		C99BDBF11CCE80A400F6E2F0 /* SwiftMLTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftMLTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C99BDBF61CCE80A400F6E2F0 /* SwiftMLTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftMLTests.swift; sourceTree = "<group>"; };
 		C99BDBF81CCE80A400F6E2F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C99BDC011CCE82CC00F6E2F0 /* Ga.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ga.swift; sourceTree = "<group>"; };
+		C99BDC031CCE833700F6E2F0 /* Nnet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Nnet.swift; sourceTree = "<group>"; };
+		C99BDC051CCE9CE900F6E2F0 /* AllonesGA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllonesGA.swift; sourceTree = "<group>"; };
+		C99BDC071CCE9E0400F6E2F0 /* Individual.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Individual.swift; sourceTree = "<group>"; };
+		C99BDC091CCEC62700F6E2F0 /* Population.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Population.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +83,11 @@
 			children = (
 				C99BDBEA1CCE80A400F6E2F0 /* SwiftML.h */,
 				C99BDBEC1CCE80A400F6E2F0 /* Info.plist */,
+				C99BDC011CCE82CC00F6E2F0 /* Ga.swift */,
+				C99BDC051CCE9CE900F6E2F0 /* AllonesGA.swift */,
+				C99BDC071CCE9E0400F6E2F0 /* Individual.swift */,
+				C99BDC091CCEC62700F6E2F0 /* Population.swift */,
+				C99BDC031CCE833700F6E2F0 /* Nnet.swift */,
 			);
 			path = SwiftML;
 			sourceTree = "<group>";
@@ -194,6 +209,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C99BDC081CCE9E0400F6E2F0 /* Individual.swift in Sources */,
+				C99BDC041CCE833700F6E2F0 /* Nnet.swift in Sources */,
+				C99BDC021CCE82CC00F6E2F0 /* Ga.swift in Sources */,
+				C99BDC061CCE9CE900F6E2F0 /* AllonesGA.swift in Sources */,
+				C99BDC0A1CCEC62700F6E2F0 /* Population.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +330,7 @@
 		C99BDBFC1CCE80A400F6E2F0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -320,12 +341,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.della.SwiftML;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		C99BDBFD1CCE80A400F6E2F0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
