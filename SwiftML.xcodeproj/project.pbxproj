@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C94DAF541CD86D2200765541 /* Sa.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94DAF531CD86D2200765541 /* Sa.swift */; };
 		C99BDBEB1CCE80A400F6E2F0 /* SwiftML.h in Headers */ = {isa = PBXBuildFile; fileRef = C99BDBEA1CCE80A400F6E2F0 /* SwiftML.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C99BDBF21CCE80A400F6E2F0 /* SwiftML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C99BDBE71CCE80A200F6E2F0 /* SwiftML.framework */; };
 		C99BDBF71CCE80A400F6E2F0 /* SwiftMLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99BDBF61CCE80A400F6E2F0 /* SwiftMLTests.swift */; };
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C94DAF531CD86D2200765541 /* Sa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sa.swift; sourceTree = "<group>"; };
 		C99BDBE71CCE80A200F6E2F0 /* SwiftML.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftML.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C99BDBEA1CCE80A400F6E2F0 /* SwiftML.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftML.h; sourceTree = "<group>"; };
 		C99BDBEC1CCE80A400F6E2F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 				C99BDC071CCE9E0400F6E2F0 /* Individual.swift */,
 				C99BDC091CCEC62700F6E2F0 /* Population.swift */,
 				C99BDC031CCE833700F6E2F0 /* Nnet.swift */,
+				C94DAF531CD86D2200765541 /* Sa.swift */,
 			);
 			path = SwiftML;
 			sourceTree = "<group>";
@@ -214,6 +217,7 @@
 				C99BDC021CCE82CC00F6E2F0 /* Ga.swift in Sources */,
 				C99BDC061CCE9CE900F6E2F0 /* AllonesGA.swift in Sources */,
 				C99BDC0A1CCEC62700F6E2F0 /* Population.swift in Sources */,
+				C94DAF541CD86D2200765541 /* Sa.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,6 +405,7 @@
 				C99BDBFD1CCE80A400F6E2F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C99BDBFE1CCE80A400F6E2F0 /* Build configuration list for PBXNativeTarget "SwiftMLTests" */ = {
 			isa = XCConfigurationList;
@@ -409,6 +414,7 @@
 				C99BDC001CCE80A400F6E2F0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
