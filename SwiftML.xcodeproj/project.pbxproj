@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C94DAF541CD86D2200765541 /* Sa.swift in Sources */ = {isa = PBXBuildFile; fileRef = C94DAF531CD86D2200765541 /* Sa.swift */; };
+		C979F2F71CDAA22A00F78BB6 /* Dt.swift in Sources */ = {isa = PBXBuildFile; fileRef = C979F2F61CDAA22A00F78BB6 /* Dt.swift */; };
 		C99BDBEB1CCE80A400F6E2F0 /* SwiftML.h in Headers */ = {isa = PBXBuildFile; fileRef = C99BDBEA1CCE80A400F6E2F0 /* SwiftML.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C99BDBF21CCE80A400F6E2F0 /* SwiftML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C99BDBE71CCE80A200F6E2F0 /* SwiftML.framework */; };
 		C99BDBF71CCE80A400F6E2F0 /* SwiftMLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99BDBF61CCE80A400F6E2F0 /* SwiftMLTests.swift */; };
@@ -30,6 +31,7 @@
 
 /* Begin PBXFileReference section */
 		C94DAF531CD86D2200765541 /* Sa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sa.swift; sourceTree = "<group>"; };
+		C979F2F61CDAA22A00F78BB6 /* Dt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dt.swift; sourceTree = "<group>"; };
 		C99BDBE71CCE80A200F6E2F0 /* SwiftML.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftML.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C99BDBEA1CCE80A400F6E2F0 /* SwiftML.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftML.h; sourceTree = "<group>"; };
 		C99BDBEC1CCE80A400F6E2F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 				C99BDC091CCEC62700F6E2F0 /* Population.swift */,
 				C99BDC031CCE833700F6E2F0 /* Nnet.swift */,
 				C94DAF531CD86D2200765541 /* Sa.swift */,
+				C979F2F61CDAA22A00F78BB6 /* Dt.swift */,
 			);
 			path = SwiftML;
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C99BDC081CCE9E0400F6E2F0 /* Individual.swift in Sources */,
+				C979F2F71CDAA22A00F78BB6 /* Dt.swift in Sources */,
 				C99BDC041CCE833700F6E2F0 /* Nnet.swift in Sources */,
 				C99BDC021CCE82CC00F6E2F0 /* Ga.swift in Sources */,
 				C99BDC061CCE9CE900F6E2F0 /* AllonesGA.swift in Sources */,
