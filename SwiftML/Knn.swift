@@ -9,6 +9,8 @@
 import UIKit
 class Knn {
 
-
+    init () {
+    
+    }
 
 }
