@@ -8,7 +8,8 @@
 
 import UIKit
 class Sa{
-
+    init(){
+    }
 
 }
 
