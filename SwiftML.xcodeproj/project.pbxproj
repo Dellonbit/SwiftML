@@ -19,6 +19,7 @@
 		C99BDC081CCE9E0400F6E2F0 /* Individual.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99BDC071CCE9E0400F6E2F0 /* Individual.swift */; };
 		C99BDC0A1CCEC62700F6E2F0 /* Population.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99BDC091CCEC62700F6E2F0 /* Population.swift */; };
 		C9BA97E71CE40F9200A2DA43 /* LogReg.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9BA97E61CE40F9200A2DA43 /* LogReg.swift */; };
+		C9F1CE581CE5A1DA001AFFE8 /* Svm.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9F1CE571CE5A1DA001AFFE8 /* Svm.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		C99BDC071CCE9E0400F6E2F0 /* Individual.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Individual.swift; sourceTree = "<group>"; };
 		C99BDC091CCEC62700F6E2F0 /* Population.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Population.swift; sourceTree = "<group>"; };
 		C9BA97E61CE40F9200A2DA43 /* LogReg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogReg.swift; sourceTree = "<group>"; };
+		C9F1CE571CE5A1DA001AFFE8 /* Svm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Svm.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 				C99BDC011CCE82CC00F6E2F0 /* Ga.swift */,
 				C99BDC051CCE9CE900F6E2F0 /* AllonesGA.swift */,
 				C99BDC071CCE9E0400F6E2F0 /* Individual.swift */,
+				C9F1CE571CE5A1DA001AFFE8 /* Svm.swift */,
 				C99BDC091CCEC62700F6E2F0 /* Population.swift */,
 				C99BDC031CCE833700F6E2F0 /* Nnet.swift */,
 				C94DAF531CD86D2200765541 /* Sa.swift */,
@@ -221,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9F1CE581CE5A1DA001AFFE8 /* Svm.swift in Sources */,
 				C99BDC081CCE9E0400F6E2F0 /* Individual.swift in Sources */,
 				C979F2F71CDAA22A00F78BB6 /* Dt.swift in Sources */,
 				C99BDC041CCE833700F6E2F0 /* Nnet.swift in Sources */,
