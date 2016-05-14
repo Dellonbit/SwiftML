@@ -2,4 +2,4 @@
 A Swift implementation of machine learning algorithms.
 
 ## Usage
-lkjlkj
+Library still under development. Usage instructions will be posted in due course.
